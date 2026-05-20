@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Etsy Connect</title>
+<style>body{font-family:-apple-system,Arial,sans-serif;max-width:620px;margin:40px auto;padding:0 20px;text-align:center;color:#222}code{display:block;background:#f3f3f3;padding:16px;font-size:17px;word-break:break-all;margin:18px 0;border-radius:8px}small{color:#888;word-break:break-all}</style></head>
+<body><h2>Etsy authorization received</h2>
+<p>Copy this code and send it to Codsworth:</p>
+<code id="c">(no code in URL)</code>
+<p><small id="full"></small></p>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||'(no code found)';document.getElementById('full').textContent=location.href;</script>
+</body></html>
