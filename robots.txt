@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thereckonin187-spec.github.io/sitemap.xml
